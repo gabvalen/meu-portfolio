@@ -1,0 +1,58 @@
+/* Reset mentalidade */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #ffffff;
+  color: #1f2933; /* preto suave */
+}
+
+/* Header */
+.header {
+  padding: 60px 20px 40px;
+  text-align: center;
+}
+
+.title {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+/* Container central (controle de largura global) */
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Introdução */
+.lead {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 48px;
+  text-align: center;
+  color: #374151;
+}
+
+/* Manifesto */
+.manifesto p {
+  line-height: 1.8;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #374151;
+}
+
+/* Fechamento */
+.closing {
+  margin-top: 48px;
+  font-style: italic;
+  color: #4b5563;
+}
